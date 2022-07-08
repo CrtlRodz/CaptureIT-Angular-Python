@@ -15,6 +15,11 @@ const routes: Routes = [{
   path:'gallery',
   component:GalleryComponent,
 },
+{
+  path:'',
+  redirectTo:'/home',
+  pathMatch:'full'
+}
 ];
 
 @NgModule({
